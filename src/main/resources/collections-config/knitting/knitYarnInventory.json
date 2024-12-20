@@ -1,0 +1,63 @@
+{
+  "name": "knitYarnInventory",
+  "tables": [
+    {
+      "name": "knit_yarn_inventory_vw",
+      "id-column": "id",
+      "id-column-name": "id",
+      "type": "primary",
+      "properties": [
+        {
+          "name": "id",
+          "column": "id",
+          "data-type": "int"
+        },
+        {
+          "name": "producer",
+          "column": "producer",
+          "data-type": "string"
+        },
+        {
+          "name": "name",
+          "column": "name",
+          "data-type": "string"
+        },
+        {
+          "name": "weight",
+          "column": "weight",
+          "data-type": "int"
+        },
+        {
+          "name": "color",
+          "column": "color",
+          "data-type": "string"
+        },
+        {
+          "name": "fiberContent",
+          "column": "fiber_content",
+          "data-type": "string"
+        },
+        {
+          "name": "count",
+          "column": "count",
+          "data-type": "int"
+        },
+        {
+          "name": "yardage",
+          "column": "yardage",
+          "data-type": "int"
+        },
+        {
+          "name": "less",
+          "column": "less",
+          "data-type": "int"
+        },
+        {
+          "name": "totalYardage",
+          "column": "total_yardage",
+          "data-type": "int"
+        }
+      ]
+    }
+  ]
+}
