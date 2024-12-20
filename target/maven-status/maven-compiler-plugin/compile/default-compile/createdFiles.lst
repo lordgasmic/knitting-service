@@ -1,0 +1,4 @@
+com/lordgasmic/knittingservice/controller/ErrorHandlingControllerAdvice.class
+com/lordgasmic/knittingservice/model/ValidationErrorResponse.class
+com/lordgasmic/knittingservice/KnittingServiceApplication.class
+com/lordgasmic/knittingservice/model/Violation.class
