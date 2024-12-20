@@ -1,0 +1,33 @@
+{
+  "name": "knitNeedleInventory",
+  "tables": [
+    {
+      "name": "knit_needle_inventory_vw",
+      "id-column": "id",
+      "id-column-name": "id",
+      "type": "primary",
+      "properties": [
+        {
+          "name": "id",
+          "column": "id",
+          "data-type": "int"
+        },
+        {
+          "name": "size",
+          "column": "size",
+          "data-type": "string"
+        },
+        {
+          "name": "unit",
+          "column": "unit",
+          "data-type": "string"
+        },
+        {
+          "name": "type",
+          "column": "type",
+          "data-type": "string"
+        }
+      ]
+    }
+  ]
+}
