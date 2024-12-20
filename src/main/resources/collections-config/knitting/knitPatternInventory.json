@@ -1,0 +1,58 @@
+{
+  "name": "knitPatternInventory",
+  "tables": [
+    {
+      "name": "knit_pattern_inventory_vw",
+      "id-column": "id",
+      "id-column-name": "id",
+      "type": "primary",
+      "properties": [
+        {
+          "name": "id",
+          "column": "id",
+          "data-type": "int"
+        },
+        {
+          "name": "name",
+          "column": "name",
+          "data-type": "string"
+        },
+        {
+          "name": "creator",
+          "column": "creator",
+          "data-type": "string"
+        },
+        {
+          "name": "type",
+          "column": "type",
+          "data-type": "string"
+        },
+        {
+          "name": "numberRequired",
+          "column": "number_required",
+          "data-type": "int"
+        },
+        {
+          "name": "weight",
+          "column": "weight",
+          "data-type": "int"
+        },
+        {
+          "name": "sizes",
+          "column": "sizes",
+          "data-type": "string"
+        },
+        {
+          "name": "yardagePerSize",
+          "column": "yardage_per_size",
+          "data-type": "int"
+        },
+        {
+          "name": "needlesRequired",
+          "column": "needles_required",
+          "data-type": "int"
+        }
+      ]
+    }
+  ]
+}
